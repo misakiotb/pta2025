@@ -8,12 +8,12 @@
     body {
       background: #fff;
       color: #222;
-      font-family: 'Segoe UI', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', meiryo, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;
       margin: 0;
       padding: 0;
     }
     header {
-      background: #222;
+      background: #0227fa;
       color: #fff;
       padding: 1.2em 0.5em 1em 0.5em;
       text-align: center;
@@ -41,7 +41,7 @@
     }
     .biko {
       color: #222;
-      background: #fafafa;
+      background: #fff;
       font-size: 0.97em;
       border-bottom: 1px solid #e0e0e0;
       padding-left: 1.2em;
@@ -56,6 +56,10 @@
     }
     tr:last-child td {
       border-bottom: none;
+    }
+    tr:nth-child(4n+1) > td:first-child,
+    tr:nth-child(4n+2) > td:first-child {
+      background-color: #f0f8ff; /* 水色 */
     }
     a {
       color: #0066cc;
